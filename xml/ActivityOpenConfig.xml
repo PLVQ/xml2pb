@@ -10,7 +10,7 @@
 		<entry name="CreateRoleDays" rule="singular" type="int32" cname="创角天数限制" desc="创角天数限制" />
 		<entry name="SortID" rule="singular" type="int32" cname="排序id" desc="排序id" />
 		<entry name="OpenType" rule="singular" type="int32" cname="开启类型" desc="活动开启类型,ACTIVITYOPENTYPE" />
-		<entry name="OpenParam" rule="repeated" type="int64" cname="活动开启参数" desc="活动开启参数" />
+		<entry name="OpenParam" rule="repeated" type="int64" size="3" cname="活动开启参数" desc="活动开启参数" />
 		<entry name="StatisticsOpenTime" rule="singular" type="uint32" cname="统计开始时间" desc="统计开始时间" />
 		<entry name="OpenSvrTimeLimit" rule="singular" type="uint32" cname="开服时间限制" desc="开服时间限制" />
 		<entry name="DelayTime" rule="singular" type="uint32" cname="延迟消失时间" desc="延迟消失时间" />
